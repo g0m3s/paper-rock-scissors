@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: rgb(63, 61, 61);  
+    /* display: grid;
+    grid-template-columns: .2fr 2.5fr;
+    grid-column-gap: 10px;
+     */
+     font-family: 'Arvo', serif;
+}
+
+/* .vic {
+
+    display: grid;
+    grid-column-start: 1;
+    grid-template-rows: 1.5fr .3fr 3fr;
+    
+}
+
+#percent {
+
+    grid-row-start: 2;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+
+} */
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    grid-column-start: 2;
+    
+}
+
+#info {
+    
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 35px 10px;
+    box-shadow: 3px 3px 5px rgb(99, 22, 170);
+
+}
+
+.selecionar {
+
+    display: flex;
+    margin-top: 15px ;
+
+}
+
+.selecionar img {
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 3px;
+
+}
+
+.selecionar img:hover {
+
+    transform: translateY(-2px);
+    box-shadow: 3px 3px 5px black;
+
+}
+
+.resultado {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.resultado img {
+
+    height: 100px;
+    width: 100px;
+    padding: 3px;
+    margin: 5px;
+
+}
+
+#resultado-imgs{
+
+    display: flex;
+    align-items: center;
+
+}
